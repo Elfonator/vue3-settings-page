@@ -10,6 +10,7 @@
     <FadeTransition>
       <KeepAlive><component :is="currentTabComponent" /></KeepAlive>
     </FadeTransition>
+    <NotificationList />
   </main>
 </template>
 
@@ -22,6 +23,7 @@ import GeneralSettings from '@/components/GeneralSettings.vue'
 import NotificationSettings from '@/components/NotificationSettings.vue'
 import PrivacySettings from '@/components/PrivacySettings.vue'
 import FadeTransition from '@/components/FadeTransition.vue'
+import NotificationList from '@/components/NotificationList.vue'
 
 const tabs: Tab[] = [
   {
